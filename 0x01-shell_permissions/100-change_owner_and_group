@@ -1,3 +1,2 @@
 #!/bin/bash
-chown-R [OWNER][:[GROUP]] FILE..
-
+chown-R vincent:staff *
