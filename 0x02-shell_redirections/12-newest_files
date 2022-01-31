@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t b2* | head -1
+find . -type d ! -name . -printf . -prune | wc -c
