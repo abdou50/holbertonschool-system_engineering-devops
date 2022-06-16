@@ -1,6 +1,7 @@
- #!/usr/bin/env bash
- #writting best school 10 times
- for i in {1..10}
+#!/usr/bin/env bash
+# Displays "best School" 10 times
+for i in {1..10}
 do
     echo "Best School"
+    (( i++ ))
 done
