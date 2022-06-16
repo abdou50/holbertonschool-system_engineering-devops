@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#display the time
+hrs = 1
+while [[ $hrs -le 12 ]]
+do
+    min=1
+    echo "Hour: $hrs"
+    (( hrs++ ))
+    while [[ $min -le 59 ]]
+    do
+        echo $min
+		(( min++ ))
+	done
+done
