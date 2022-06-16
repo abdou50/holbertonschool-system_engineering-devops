@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #display
-for i in $(ls)
+tab=$(ls)
+for i in $tab
 do
     echo "$i" | cut -d '-' -f 2
 done
