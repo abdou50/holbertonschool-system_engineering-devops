@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this file print
+FILENAME="/etc/passwd"
+while IFS= read -r line
+do
+  echo "$line"
+done < $FILENAME
