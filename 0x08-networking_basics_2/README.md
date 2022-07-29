@@ -1,0 +1,1 @@
+why binaryyy tree is a zero and i pussssssssssssssssssssssssssssssssssssssssssssssssssssssshed
