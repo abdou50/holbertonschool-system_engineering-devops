@@ -1,0 +1,3 @@
+IP 54.145.10.198
+PasswordAuthentication=no
+IdentityFile ~/.ssh/school
