@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #run
-pkill nginx
 pkill apache2
-chown nginx:nginx /ect/nginx/nginx.conf
-chmod +x /etc/nginx/nginx.conf
-sed -i 's/80/8080/g' /etc/nginx/sites-enable/default
+chown nginx:nginx /etc/nginx/nginx.conf
+chmod 777 /etc/nginx/nginx.conf
+sed -i 's/80/8080/g' /etc/nginx/sites-available/default
 sudo -u nginx service nginx start
