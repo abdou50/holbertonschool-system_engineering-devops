@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#run 
+pkill apache2
+chown -R nginx:nginx /ect/nginx/nginx.conf
