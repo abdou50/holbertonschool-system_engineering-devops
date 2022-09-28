@@ -1,6 +1,5 @@
-#apache
-
-exec {'delp';
-	command => 'sed -i s/phpp/php/g /var/www/html/wp-settings.php',
-	provider => 'shell',
+# Apache is returning error
+exec { 'delp':
+  command  => 'sed -i s/phpp/php/g /var/www/html/wp-settings.php',
+  provider => 'shell',
 }
